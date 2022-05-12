@@ -9,7 +9,15 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        'panel-1': "url('https://picsum.photos/seed/picsum1/1200/1300.webp')",
+        'panel-2': "url('https://picsum.photos/seed/picsum2/1200/1300.webp')",
+        'panel-3': "url('https://picsum.photos/seed/picsum3/1200/1300.webp')",
+        'panel-4': "url('https://picsum.photos/seed/picsum4/1200/1300.webp')",
+        'panel-5': "url('https://picsum.photos/seed/picsum5/1200/1300.webp')",
+      })
+    },
   },
   plugins: [],
 };
