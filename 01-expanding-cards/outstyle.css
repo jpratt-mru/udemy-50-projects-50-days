@@ -516,63 +516,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 100vh;
 }
 
-.h-\[80vh\]{
-  height: 80vh;
-}
-
 .w-\[90vw\]{
   width: 90vw;
 }
 
-.cursor-pointer{
-  cursor: pointer;
-}
-
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-lg{
-  border-radius: 0.5rem;
-}
-
-.bg-panel-1{
-  background-image: url('https://picsum.photos/seed/picsum1/1200/1300.webp');
-}
-
-.bg-panel-2{
-  background-image: url('https://picsum.photos/seed/picsum2/1200/1300.webp');
-}
-
-.bg-panel-3{
-  background-image: url('https://picsum.photos/seed/picsum3/1200/1300.webp');
-}
-
-.bg-panel-4{
-  background-image: url('https://picsum.photos/seed/picsum4/1200/1300.webp');
-}
-
-.bg-panel-5{
-  background-image: url('https://picsum.photos/seed/picsum5/1200/1300.webp');
-}
-
-.bg-cover{
-  background-size: cover;
-}
-
-.bg-center{
-  background-position: center;
-}
-
-.bg-no-repeat{
-  background-repeat: no-repeat;
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
 body {
   font-family: 'Muli', sans-serif;
-}
+} 

@@ -18,7 +18,7 @@ class Panel extends HTMLElement {
   }
 
   connectedCallback() {
-    this.className = `text-white h-[80vh] rounded-lg bg-cover bg-center bg-no-repeat`;
+    this.className = `text-white h-[90vh] rounded-[50px] bg-cover bg-center bg-no-repeat`;
 
     let seed = this.seed || "picsum0";
     this.style = `background-image: url('https://picsum.photos/seed/${seed}/1200/1300.webp')`;
