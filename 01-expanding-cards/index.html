@@ -13,12 +13,37 @@
     <title>Expanding Cards</title>
   </head>
   <body class="flex h-screen">
-    <div class="flex container w-[90vw] m-auto">
-      <pic-panel seed="picsum1">Our Stuff</pic-panel>
-      <pic-panel seed="picsum2" text="Your Stuff"></pic-panel>
-      <pic-panel seed="picsum3" text="The Stuff"></pic-panel>
-      <pic-panel seed="picsum4" text="Fun Stuff"></pic-panel>
-      <pic-panel seed="picsum5" text="Bad Stuff"></pic-panel>
+    <style>
+      pic-panel.active {
+        flex: 5;
+      }
+    </style>
+    <div class="flex container w-[90vw] m-auto gap-2.5">
+      <pic-panel seed="picsum11"
+        ><span class="absolute bottom-5 left-5 opacity-0"
+          >Our Stuff</span
+        ></pic-panel
+      >
+      <pic-panel seed="picsum2"
+        ><span class="absolute bottom-5 left-5 opacity-0"
+          >Your Stuff</span
+        ></pic-panel
+      >
+      <pic-panel seed="picsum3"
+        ><span class="absolute bottom-5 left-5 opacity-0"
+          >The Stuff</span
+        ></pic-panel
+      >
+      <pic-panel seed="picsum4"
+        ><span class="absolute bottom-5 left-5 opacity-0"
+          >Fun Stuff</span
+        ></pic-panel
+      >
+      <pic-panel seed="picsum5"
+        ><span class="absolute bottom-5 left-5 opacity-0"
+          >Bad Stuff</span
+        ></pic-panel
+      >
     </div>
     <script src="script.js"></script>
   </body>
