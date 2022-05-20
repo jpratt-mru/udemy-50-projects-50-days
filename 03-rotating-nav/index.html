@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="outstyle.css" />
+    <script type="module" src="https://cdn.skypack.dev/twind/shim"></script>
+    <title>Rotating Nav</title>
+  </head>
+  <body class="w-screen overflow-x-hidden text-gray-600 bg-gray-800">
+    <div
+      class="container w-screen min-h-screen p-12 transition-transform duration-500 ease-linear bg-gray-200"
+    >
+      <div class="fixed circle-container -top-[100px] -left-[100px]">
+        <div
+          class="bg-red-500 circle h-[200px] w-[200px] rounded-full relative transition-transform duration-500 ease-linear"
+        >
+          <button
+            id="close"
+            class="absolute top-[60%] left-1/2 h-[100px] w-[100px] text-2xl text-white focus:outline-none rotate-90 origin-top-left"
+          >
+            <i class="fas fa-times"></i>
+          </button>
+          <button
+            id="open"
+            class="absolute top-1/2 left-[60%] h-[100px] w-[100px] text-2xl text-white focus:outline-none"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Amazing Article</h1>
+        <small>Floring Pop</small>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed optio
+          sint officiis sit, voluptatum dolore fugit quidem est voluptate
+          laboriosam, quia quo, illo atque at cumque soluta nesciunt dicta
+          consectetur ducimus blanditiis minus delectus quod enim! Ipsam iste
+          corporis praesentium nisi iure veritatis ratione, laudantium quisquam
+          minus, asperiores, autem officia aut excepturi dolor. Amet reiciendis
+          sapiente, eaque assumenda distinctio cum numquam mollitia cumque dolor
+          quaerat atque blanditiis pariatur, dolore deleniti placeat cupiditate
+          aperiam, eos velit aliquid nostrum incidunt? Voluptatibus quod
+          perspiciatis rerum? Necessitatibus, veritatis cupiditate ipsum
+          quibusdam vel provident consequatur quidem aperiam rerum? Veritatis,
+          temporibus placeat. Ex a maxime aspernatur!
+        </p>
+        <h3>my dog</h3>
+        <img src="http://placekitten.com/2100/2100" alt="kitty" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at
+          aut aliquam deserunt quo veniam omnis rerum reiciendis odio ab
+          quisquam sint? Fugiat delectus itaque, laborum saepe natus nemo,
+          laboriosam ipsum, molestias suscipit illo corporis quia recusandae?
+          Similique illo ratione deleniti animi tenetur corporis saepe deserunt
+          ex culpa quasi earum, ut quam numquam, dolores optio rem rerum eos et
+          voluptatibus suscipit minus inventore eveniet? Perspiciatis sapiente
+          ratione eligendi id vel totam odio doloremque veniam voluptas.
+        </p>
+      </div>
+      <nav>
+        <ul>
+          <li><i class="fas fa-home"></i>Home</li>
+          <li><i class="fas fa-user-alt"></i>About</li>
+          <li><i class="fas fa-envelope"></i>Contact</li>
+        </ul>
+      </nav>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
